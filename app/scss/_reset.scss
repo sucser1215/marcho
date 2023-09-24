@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  padding: 0;
+  appearance: initial;
+  font: inherit;
+  outline: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+}
