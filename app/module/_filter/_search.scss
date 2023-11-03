@@ -1,0 +1,20 @@
+.filter-search {
+  &__form {
+    display: flex;
+  }
+  &__input {
+    border: none;
+    background-color: $bg;
+    height: 50px;
+    padding: 0 5px 0 15px;
+    width: 260px;
+  }
+  &__btn {
+    background-color: $accent;
+    height: 50px;
+    width: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

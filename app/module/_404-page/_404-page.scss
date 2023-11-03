@@ -28,3 +28,25 @@
     box-shadow: 0 5px 25px 0 rgba(254, 62, 87, 0.35);
   }
 }
+
+@media(max-width: 1230px){
+  .page-404{
+    &__img{
+      width: 40%;
+    }
+  }
+}
+@media(max-width: 992px){
+   .page-404{
+    &__img{
+      display: none;
+    }
+  }
+}
+@media(max-width:620px){
+   .page-404{
+    &__title{
+      line-height: 56px;
+    }
+  }
+}
