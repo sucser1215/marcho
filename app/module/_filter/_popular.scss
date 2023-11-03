@@ -1,0 +1,20 @@
+.filter-popular {
+  &__label {
+    display: inline-block;
+    margin: 0 8px 20px 0;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  &__input {
+    @extend %checkbox-hidden;
+    &:checked + .filter-popular__checkbox {
+      background-color: $accent;
+      color: #fff;
+      border-color: $accent;
+    }
+  }
+  &__checkbox {
+    border: 1px solid $default;
+    padding: 10px 20px;
+  }
+}
